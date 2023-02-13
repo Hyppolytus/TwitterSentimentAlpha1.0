@@ -9,7 +9,7 @@ access_token = "1579963500096589827-tsjCiEhhyRjkDtUf2Nx72iaFZpTCos"
 access_token_secret = "fhVEnesLvtPeMXEm6RN8hPN5uLj1I3R1JZa4cTWTaUZ08"
 
 # Enter your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Authenticate to Twitter API
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
