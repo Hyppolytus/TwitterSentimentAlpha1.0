@@ -2,15 +2,6 @@ import tweepy
 import streamlit as st
 import openai
 
-# Enter your Twitter API credentials here
-consumer_key = "9VTPfii85O3LPRPOUpHfuCSDO"
-consumer_secret = "r3OYUKjrevMgPZBIk3wzeBjtCirw607X072Q35tDf9kszeEuSU"
-access_token = "1579963500096589827-tsjCiEhhyRjkDtUf2Nx72iaFZpTCos"
-access_token_secret = "fhVEnesLvtPeMXEm6RN8hPN5uLj1I3R1JZa4cTWTaUZ08"
-
-# Enter your OpenAI API key
-openai.api_key = "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"
-
 # Authenticate to Twitter API
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
